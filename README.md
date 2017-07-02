@@ -25,10 +25,8 @@ extern crate dow;
 and then you can use it as follows:
 
 ```rust
-...
-
 let day_index = dow::dow(2017, 7, 2);
-assert_eq!(day_index, 6);
-
-...
+assert_eq!(day_index, 0);
 ```
+
+Note: Sunday is `0`, Monday is `1` etc.
