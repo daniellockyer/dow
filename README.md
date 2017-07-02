@@ -1,7 +1,7 @@
 dow
 ===
 
-Return the day of the week a specific date falls on (uses Tomohiko Sakamoto's algorithm).
+Return the day of the week a specific date falls on (uses [Tomohiko Sakamoto's algorithm](https://en.wikipedia.org/wiki/Determination_of_the_day_of_the_week#Sakamoto.27s_methods)).
 
 [![Build Status](https://travis-ci.org/neosilky/dow.svg?branch=master)](https://travis-ci.org/neosilky/dow)
 
