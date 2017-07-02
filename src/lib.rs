@@ -5,7 +5,7 @@ const LOOKUP: [usize; 12] = [0, 3, 2, 5, 0, 3, 5, 1, 4, 6, 2, 4];
 pub fn dow(y: usize, m: usize, d: usize) -> usize {
     let mut yy = y;
 
-    if m >= 3 {
+    if m < 3 {
         yy -= 1;
     }
 
@@ -14,5 +14,5 @@ pub fn dow(y: usize, m: usize, d: usize) -> usize {
 
 #[test]
 fn it_works() {
-    assert_eq!(dow(2017, 7, 2), 6);
+    assert_eq!(dow(2017, 7, 2), 0);
 }
