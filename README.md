@@ -22,13 +22,12 @@ and this to your crate root:
 
 ```rust
 extern crate dow;
+use dow::Day;
 ```
 
 and then you can use it as follows:
 
 ```rust
 let day_index = dow::dow(2017, 7, 2);
-assert_eq!(day_index, 0);
+assert_eq!(day_index, Day::Sunday);
 ```
-
-Note: Sunday is `0`, Monday is `1` etc.
