@@ -15,7 +15,7 @@ pub enum Day {
 }
 
 pub fn dow(y: usize, m: usize, d: usize) -> Day {
-    /// Return the index of the day for which the given date corresponds to.
+    /// Return the day which the given date corresponds to.
     ///
     /// # Arguments
     ///
@@ -29,8 +29,8 @@ pub fn dow(y: usize, m: usize, d: usize) -> Day {
     /// extern crate dow;
     /// use dow::Day;
     ///
-    /// let day_index = dow::dow(2017, 7, 2);
-    /// assert_eq!(day_index, Day::Sunday);
+    /// let day = dow::dow(2017, 7, 2);
+    /// assert_eq!(day, Day::Sunday);
     /// ```
 
     let mut yy = y;

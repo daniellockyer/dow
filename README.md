@@ -28,6 +28,6 @@ use dow::Day;
 and then you can use it as follows:
 
 ```rust
-let day_index = dow::dow(2017, 7, 2);
-assert_eq!(day_index, Day::Sunday);
+let day = dow::dow(2017, 7, 2);
+assert_eq!(day, Day::Sunday);
 ```
