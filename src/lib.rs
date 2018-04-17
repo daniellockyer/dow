@@ -14,25 +14,23 @@ pub enum Day {
     Saturday
 }
 
+/// Return the day which the given date corresponds to.
+///
+/// # Arguments
+///
+/// * `y`: Year
+/// * `m`: Month
+/// * `d`: Day
+///
+/// # Example
+///
+/// ```
+/// use dow::Day;
+///
+/// let day = dow::dow(2017, 7, 2);
+/// assert_eq!(day, Day::Sunday);
+/// ```
 pub fn dow(y: usize, m: usize, d: usize) -> Day {
-    /// Return the day which the given date corresponds to.
-    ///
-    /// # Arguments
-    ///
-    /// * `y`: Year
-    /// * `m`: Month
-    /// * `d`: Day
-    ///
-    /// # Example
-    ///
-    /// ```
-    /// extern crate dow;
-    /// use dow::Day;
-    ///
-    /// let day = dow::dow(2017, 7, 2);
-    /// assert_eq!(day, Day::Sunday);
-    /// ```
-
     let mut yy = y;
 
     if m < 3 {
