@@ -1,7 +1,7 @@
 [package]
 name = "dow"
 description = "Tomohiko Sakamoto's algorithm for finding the day of the week"
-version = "0.1.2"
+version = "0.1.3"
 license = "MIT"
 readme = "README.md"
 authors = ["Daniel Lockyer <thisisdaniellockyer@gmail.com>"]
