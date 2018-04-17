@@ -5,7 +5,7 @@ Return the day of the week a specific date falls on (uses [Tomohiko Sakamoto's a
 
 [![Build Status](https://travis-ci.org/neosilky/dow.svg?branch=master)](https://travis-ci.org/neosilky/dow)
 [![Docs Status](https://docs.rs/dow/badge.svg)](https://docs.rs/dow)
-[![On crates.io](https://img.shields.io/crates/v/dow.svg)](https://crates.io/crates/dow)
+[![On crates.io](https://img.shields.io/crates/d/dow.svg)](https://crates.io/crates/dow)
 
 - [Documentation](https://docs.rs/dow)
 
